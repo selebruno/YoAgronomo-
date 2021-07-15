@@ -1,0 +1,292 @@
+
+.titleh5{
+    position: relative;
+    top: -25rem;
+    color: rgba(0, 77, 0, 0.596);
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 45px;
+    justify-content: center;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.celular{
+    visibility: hidden;
+}
+
+.tittle{
+    color: white;
+    position: fixed;
+    text-align: center;
+    padding-bottom: 2vh;
+    bottom: 70%;
+    left: 26%;
+    font-size: 80px;
+    width: 50%;
+    letter-spacing:10px;
+    /* background-color: rgba(172, 255, 47, 0.219); */
+}
+.contSecundario{
+    position: fixed;
+    top: 28%;
+    width: 70%;
+    height: 60vh;
+    border-radius: 10px;
+    background: linear-gradient(rgba(84, 107, 85, 0.5), rgba(7, 20, 14, 0.52), rgba(84, 107, 85, 0.5));
+    backdrop-filter: blur(2px);
+    box-shadow: 0 0 10px black;
+}
+.contenedorCards{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+    grid-template-columns:repeat(2, 55rem);
+}
+.contenedorCardsCelular{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: chartreuse; */
+}
+.prueba{
+    width: 200px;
+    height: 200px;
+    background-color: chocolate;
+}
+.body{
+    background-image:url('../../assets/Black\ Flat\ &\ Minimalist\ Accounting\ Business\ Website\ \(7\).png');
+    background-size: cover;
+    background-clip: border-box;
+    background-blend-mode:darken;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+
+
+/* agregar empresa */
+
+
+.cardContAdd{
+    display: flex;
+    cursor: pointer;
+    /* left: 180px; */
+    background-image: url('../../assets/cicle.png');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-clip:padding-box;
+    background-size: 700px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    align-items: center;
+    object-fit: cover;
+    width: 36vh;
+    height: 21vh;
+    background-color: rgba(255, 255, 255, 0.178);
+    border:none;
+    box-shadow: 0px 0px 30px black;
+    
+}
+/* .imgAdd2{
+    width: 20%;
+    height: 30%;
+    position: fixed;
+    opacity: 0.3;
+} */
+.cardContAdd:hover{
+    transition: 0.9s;
+    background-size: 600px;
+    border:none;
+    background-color: #43748a46;
+    box-shadow: 5px 5px 40px black;
+}
+
+.titleAdd{
+    display: none;
+    color: black;
+    transition: 0.9s;
+}
+.cardContAdd:hover .titleAdd{
+    display: inline;
+    font-size: 150%;
+    color: greenyellow;
+    transition: 0.9s;
+}
+
+
+.imgAdd{
+    bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.096);
+    border-radius: 1000px;
+    border: 2px solid rgba(0, 189, 13, 0.075);
+    width: 30%;
+} 
+.imgAdd:hover{
+    transition: 1s;
+    background-color: #80cc28;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    border: 2px solid rgba(0, 104, 189, 0.226);
+}
+@media (max-width: 1400px) {
+    .contenedorCards{
+        height: 50vh;
+        grid-template-columns: repeat(2, .4fr);
+    }
+    .contSecundario{
+        width: 110vh;
+    }
+    .nextBtn{
+        bottom: 18rem;
+    }
+    .prevBtn{
+        top: 18rem;
+        right: 5rem;
+    }
+  }
+  @media (max-width: 1200px) {
+    .contenedorCards{
+        height: 50vh;
+        grid-template-columns: repeat(2, .4fr);
+    }
+    .contSecundario{
+        width: 100vh;
+    }
+    .nextBtn{
+        bottom: 18rem;
+    }
+    .prevBtn{
+        top: 18rem;
+        right: 5rem;
+    }
+  }
+  @media (max-width: 1000px) {
+    .contenedorCards{
+        height: 50vh;
+        grid-template-columns: repeat(1, 10fr);
+        gap: 5rem;
+        width: 60vh;
+    }
+    .contSecundario{
+        width: 60vh;
+    }
+    .nextBtn{
+        bottom: 18rem;
+    }
+    .prevBtn{
+        top: 18rem;
+        right: 5rem;
+    }
+  }
+  /* /////////////////////////// PHONE //////////////////////////////// */
+
+  @media (max-width: 425px){
+    .body{
+        background: none;
+    }
+    .contenedorCards{
+        display: none;
+    }
+    .contSecundario{
+        position: absolute;
+        display: flex;
+        top: -10vh;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.205);
+        border-radius: 0;
+        box-shadow: 0 0 0;
+        width: 100vw;
+        height: 110vh;
+    }
+    .titleh5{
+        position: absolute;
+        z-index: 2;
+        font-size: 30px;
+        top: 20%;
+        opacity: 0;
+        animation: apraecerYdesaparecer 5s ease;
+    }
+    @keyframes apraecerYdesaparecer {
+        from{
+            opacity: 1;
+        }
+        to{
+            opacity: 0;
+
+        }     
+    }
+    .celular{
+        visibility: visible;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        /* background-color: coral; */
+        width: 100%;
+        height: 100%;
+    }
+    .divContAdd{
+        width: 100%;
+        height: 50vh;
+        /* background-color: black; */
+    }
+    .sliderCelular{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        left: 0;
+        top: 30%;
+        width: 100%;
+        height: 60%;
+        /* background-color: antiquewhite; */
+    }
+    .arrowNext,
+    .arrowPrev{
+        position: absolute;
+        top: 85%;
+        width: 50px;
+        height: 50px;
+        z-index: 2;
+    }
+    .arrowNext{
+        background-image: url('../../assets/arrow.png');
+        background-position: center;
+        background-size: cover;
+        transform: rotate(270deg);
+        left: 55%;
+    }
+    .arrowPrev{
+        background-image: url('../../assets/arrow.png');
+        background-position: center;
+        background-size: cover;
+        transform: rotate(90deg);
+        right: 55%;
+    }
+    .arrowNext:active,
+    .arrowPrev:active{
+        background-size: 90%;
+    }
+  }

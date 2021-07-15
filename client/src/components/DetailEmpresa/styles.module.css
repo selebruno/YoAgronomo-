@@ -1,0 +1,376 @@
+body {
+    margin: 0;
+    background: url('../../assets/Black\ Flat\ &\ Minimalist\ Accounting\ Business\ Website\ \(5\).png');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.div {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+}
+
+.caja {
+    
+    /* width: 20px; */
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+
+}
+
+.liContenedor {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    backdrop-filter: blur(20px);
+    background: linear-gradient(rgba(83, 83, 83, 0.6), rgba(7, 20, 14, 0.52), rgba(84, 107, 85, 0.6));
+    box-shadow: 1px 0 15px black;
+    border: 2px solid rgba(54, 54, 54, 0.363);
+    width: 70vw;
+    height: 70vh;
+    border-radius: 25px;
+}
+.cross{
+    position: absolute;
+    left: 130%;
+    top:-35%;
+    border: none;
+    background: none;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.329)),
+    url('../../assets/cross.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:6vh;
+    height:6vh;
+    border-radius: 10vh;
+}
+.cross:hover{
+    background-image:  url('../../assets/cross.png');
+    background-size: 90%;
+    cursor: pointer;
+
+}
+.malditoH2{
+    color: black !important;
+    font-weight: 400;
+}
+.elLink{
+    
+    height: 3vh;
+    width: 40rem;
+}
+.elLink:hover{
+    transition: 0.3s;
+    background-color: rgba(168, 202, 149, 0.144);
+}
+
+.agendita{
+    display: flex;
+    flex-direction: row;
+    color: black !important;
+    font-weight: 400;
+}
+.btnLote{
+    position: relative;
+    display: flex;
+    text-align: center;
+    bottom: 10rem;
+    height: 4.7vh;
+    left: 30rem;
+    width: 150px !important;
+    font-size: 12px !important;
+    font-weight: 300 !important;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #80cc28 !important;
+    padding: 15px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+}
+.btnLote:hover{
+    cursor: pointer;
+    font-size: 13px;
+    color: black !important;
+    background: #27963c !important;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.2s ease 0s;
+    box-shadow: 0 0 5pt 0.5pt #161616;
+
+}
+
+.ubicacion {
+    margin-left: 1rem;
+}
+.contTareas{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: start;
+    position: absolute;
+    bottom: -12%;
+    left: 0%;
+    width: 80%;
+    height: 16vh;
+    background-color: rgba(170, 170, 170, 0.267);
+}
+.contTareas::-webkit-scrollbar {
+    transition: 0.3s;
+    width: 0.5rem;
+    background: rgba(224, 224, 224, 0.185);
+    border-radius: 4px;
+}
+
+
+.description { 
+    display: flex;
+    flex-direction: column;
+    color: black !important;
+    position: relative;
+    top: -5rem;
+    left: 5rem;
+    text-align: start;
+    width: 50%;
+    height: 40vh;
+    justify-content: space-between;
+    font-family: 'Segoe UI';
+    /* background-color: red; */
+
+}
+
+.imgEmpresa {
+    transition: 1s;
+    position: relative;
+    left: 0rem;
+    box-shadow: 0 0 10px rgba(77, 77, 77, 0.26);
+    border-radius: 1.5rem;
+    width: 30vw;
+    height: 40vh;
+}
+.imgEmpresa:hover{
+    transition: 1s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.623);
+}
+
+.tareas {
+    text-align: left;
+    align-content: center;
+    margin-left: 2rem;
+
+}
+
+.itemsTop {
+    position: relative;
+    top: 3rem;
+    width: 80rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+
+
+}
+
+.nameTitle {
+    position: relative;
+    left: -25%;
+    font-size: 7rem;
+    text-shadow: 0 0 30px rgb(54, 59, 65);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-weight: 200 !important;
+}
+
+.btnsDelEdit {
+    position: relative;
+    left: 31%;
+    top: -10vh;
+    display: flex;
+    width: 30rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonEmpresa {
+    margin-left: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 5px;
+    width: 50px;
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    padding:7px;
+    border: black solid 0.5px;
+    background-color:rgba(255, 255, 255, 0.301);
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+
+}
+
+.buttonEmpresa:hover {
+    background-color: #27963b94;
+    color: #0a0a0a;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.2s ease 0s;
+    box-shadow: 0 0 5pt 0.5pt #161616;
+}
+
+.agenda {
+    
+    margin-left: 10px;
+    width: 150px !important;
+    font-size: 12px !important;
+    font-weight: 300 !important;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #80cc28 !important;
+    padding: 15px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+}
+
+.agendaCont{
+    display: flex;
+    flex-direction: row;;
+}
+
+.agenda:hover {
+    cursor: pointer;
+    font-size: 13px;
+    color: black !important;
+    background: #27963c !important;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.2s ease 0s;
+    box-shadow: 0 0 5pt 0.5pt #161616;
+}
+
+.eliminarEmpresa {
+    margin-left: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 5px;
+    width: 50px;
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    padding:7px;
+    border: black solid 0.5px;
+    background-color:rgba(255, 255, 255, 0.301);
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+
+}
+
+.eliminarEmpresa:hover {
+    background-color: #fc3e3ec0;
+    color: #0a0a0a;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.2s ease 0s;
+    box-shadow: 0 0 5pt 0.5pt #161616;
+}
+
+.eachTareaBaja{
+    color: black;
+    margin: 10px auto;
+    padding: 2px;
+    background-color: rgba(0, 128, 0, 0.37);
+    border-radius: 13px;
+    font-size: 20px;
+}
+.eachTareaMedia{
+    color: black;
+    margin-bottom: 2px;
+    padding: 2px;
+    background-color: rgba(126, 128, 0, 0.5);
+    border-radius: 13px;
+    font-size: 20px;
+}
+.eachTareaAlta{
+    color: black;
+    padding: 2px;
+    margin-bottom: 10px 0 10px 0;
+    background-color: rgba(128, 0, 0, 0.582);
+    border-radius: 13px;
+    font-size: 20px;
+}
+
+@media (max-width: 425px) {
+
+    .liContenedor{
+        width: 100%;
+        height: 100vh;
+        padding-top: 20%;
+        background:none;
+        backdrop-filter: blur(0px);
+        border: 3px solid black;
+        /* display: flex;
+        flex-direction: column; */
+        /* background-color: none; */
+    }
+
+    /* //// head //// */
+    .name{
+        background-color: blue;
+        width: 100%;
+    }
+    .itemsTop{
+        position: relative;
+        background-color: black;
+        width: 100%;
+        top: 3rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;    
+    }
+    .nameTitle{
+        position:static;
+        /* left: -25%; */
+        font-size: 6rem;
+        letter-spacing: 0.3rem;
+        text-shadow: 0 0 30px rgb(54, 59, 65);
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        border-radius: 8px;
+        font-weight: 200 !important;
+    }
+}
+/* .name{
+    background-color: blue;
+} */

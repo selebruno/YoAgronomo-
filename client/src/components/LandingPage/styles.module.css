@@ -1,0 +1,365 @@
+.div {
+    background-image:
+    linear-gradient(to bottom, rgba(97, 97, 97, 0.52), rgba(0, 0, 0, 0.411)),
+    url('https://w.wallha.com/ws/5/ez5lK3xB.jpg');
+    min-width: 100vw;
+    min-height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+@media only screen 
+    and (min-device-width : 375px) 
+    and (max-device-width : 667px) {
+    .seleSoy{
+        font-size: 50px !important;
+        margin: 0 auto;
+        position: absolute;
+        top: 23rem !important;
+        right: 4vh !important;
+    }
+    .logo{
+        width: 100px !important;
+        height: 100px !important;
+        margin: 0 auto !important;
+        position: absolute;
+        top: 30rem !important;
+        right: 15rem !important;
+    }
+    .form{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 62.5vh 0 0 4vh !important;
+    font-weight: 600;
+    background-color: rgba(255, 240, 240, 0.568);
+    border-radius: 8px;
+    padding: 3vh;
+    max-width: 47vh !important;
+    height: 30vh !important;
+    }
+    .login{
+        background-color: #1c7c2cc2 !important;
+        text-decoration: none !important;
+        border-radius: 3px;
+        color: black;
+        padding: 8px 8px 14px 92px;
+        width: 180px !important;
+        height: 4rem;
+        font-size: 20px;
+        position: absolute;
+        top:30vh !important;
+        left: -20.5vh !important;
+
+    }
+    .registro{
+        background-color: #1c7c2cc2 !important;
+        text-decoration: none !important;
+        border-radius: 3px;
+        color: black;
+        padding: 8px 9px 14px 63px;
+        width: 180px !important;
+        height: 4rem;
+        font-size: 20px;
+        position: absolute;
+        top:30vh !important;
+        left: 3.05vh !important;
+    }   
+    .google{
+        width: 200px !important;
+        margin-left: 14.7vh !important;
+        margin-bottom: 2vh !important;
+    }
+    .goBack{
+        width: 25px !important;
+        height: 25px !important;
+    }
+    }
+
+
+
+
+
+
+    .contenedorTittle{
+        /* background-color: violet; */
+        display: flex;
+        width: 120vh;
+        position: relative;
+        justify-content: space-around;
+        align-items: center;
+        top: 25vh;
+        left: 24.5vh; 
+    }
+
+
+
+
+    .google{
+        width: 230px;
+        margin-left: 37.35vh;
+        margin-top: 4vh;
+    }
+    
+
+    .labels{
+        font-size: 13px !important;
+        margin-left: 3vh;
+    }
+    .loginBtn{
+        width: 220px !important;
+        font-size: 12px !important;
+        letter-spacing: 1px;
+        margin: 3vh 0 1vh 1vh;
+        color: rgb(0, 0, 0) ;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: 300;
+        background: #80cc28 !important;
+        padding: 10px; 
+        border-radius: 5px;
+        display: inline-block;
+        border: none;
+        transition: all 0.4s ease 0s;
+    }
+    
+    .loginInput{
+        display: flex;
+        margin: 45px 0 0 19px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 270px;
+        border: none;
+        padding: 8px;
+        border-radius: 4px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 32vh 0 0 26vh;
+        font-weight: 600;
+        background-color: rgba(255, 240, 240, 0.568);
+        border-radius: 8px;
+        padding: 3vh;
+        max-width: 47vh;
+        height: 35vh;
+        
+    }
+    
+    
+    .seleSoy{
+        color: white;
+        font-size: 75px;
+        font-weight:400;
+        position: absolute;
+        top: 37rem;
+        right: 25vh;
+        
+    }
+  
+
+    .logo{
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: 38rem;
+        right: 15vh;
+    }
+    
+    .olvido{
+        background-color: transparent;
+        border: none;
+        font-size: 17px;
+        color:rgb(4, 119, 4);
+        font-weight: 600;
+        margin: 10px 0 5px 3px;
+    }
+
+    .olvido:hover{
+        color: rgb(86, 128, 24);
+        letter-spacing: 1px;
+        transition: all 1s;
+    }
+    
+
+    .registro{
+        background-color: #0000001a;
+        text-decoration: none !important;
+        border-radius: 3px;
+        color: black;
+        padding: 8px 9px 14px 63px;
+        width: 212px;
+        font-size: 20px;
+        position: absolute;
+        top:21.5%;
+        left: 21.3%;
+    }   
+    .login{
+        background-color: #0000001a;
+        text-decoration: none !important;
+        border-radius: 3px;
+        color: black;
+        padding: 8px 8px 14px 92px;
+        width: 212px;
+        font-size: 20px;
+        position: absolute;
+        top:21.5%;
+        left: 1.4%;
+
+    }
+    .registerBtn{
+        width: 230px !important;
+        margin: 3vh 0 1vh 4vh;
+        font-size: 12px !important;
+        color: rgb(0, 0, 0) ;
+        text-transform: uppercase;
+        text-decoration: none;
+        background: #80cc28 !important;
+        padding: 10px !important;
+        border-radius: 5px;
+        display: inline-block;
+        border: none;
+        transition: all 0.2s ease 0s;
+}
+
+
+
+.labels{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.login:hover{
+    background-color: #80cc28;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+    box-shadow: 0 0 5pt 0.5pt #161616;
+}
+
+.registro:hover{
+    background-color: #80cc28;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+    box-shadow: 0 0 5pt 0.5pt #161616;
+}
+
+.registro:active{
+    background-color: #b1c49b;
+}
+
+.login:active{
+    background-color: #b1c49b;
+}
+.disabled{
+    width: 230px !important;
+    margin: 3vh 0 0 4vh;
+    font-size: 12px !important;
+    color: rgb(0, 0, 0) ;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #b1c49b !important;
+    padding: 10px !important;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    cursor: not-allowed;
+}
+
+.disabled:hover{
+    cursor: not-allowed;
+}
+
+.disabledLogin{
+    width: 230px !important;
+    font-size: 12px !important;
+    font-weight: 300 !important;
+    margin: 3vh 0 1vh 0vh;
+    color: rgb(0, 0, 0) ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #b1c49b !important;
+    padding: 10px; 
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+}
+
+.disabledLogin:hover{
+    cursor: not-allowed;
+}
+
+.loader{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: auto 0;
+}
+
+.registerBtn:hover {
+    cursor: pointer;
+    background: #27963c !important;
+    color:black !important;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+    box-shadow: 0 0 5pt 0.5pt #161616;
+}
+
+.registerBtn:active{
+    background-color: rgb(0, 138, 0);
+}
+
+
+.loginBtn:hover {
+cursor: pointer;
+font-size: 13px;
+color: black !important;
+background: #27963c !important;
+letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.2s ease 0s;
+box-shadow: 0 0 5pt 0.5pt #161616;
+}
+
+.loginBtn:active{
+background-color: rgb(8, 117, 57);
+}
+
+.goBack{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top:25px;
+    left: 25px;
+}
+
+.goBack:hover{
+    width: 37px;
+    height: 37px;
+}
+
+.error{
+    font-size: 10px;
+    color: red;
+    margin-left: 30px;
+}

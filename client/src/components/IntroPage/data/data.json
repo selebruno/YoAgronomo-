@@ -1,0 +1,141 @@
+{
+    "Header": {
+
+        "title": "YoAgrónomo",
+        "paragraph": "Soluciones integrales para la gestion Agro"
+
+    },
+    "About": {
+        "paragraph": "Yo Agrónomo nace de la necesidad de quienes están en el sector, de una platafroma de herramientas integradas. Buscamos facilitar las tareas diarias de quienes se dedican a organizar y administrar empresas agrarias, para facilitar no solo las tareas del día a día, sino las más complejas que requieran almacenamiento y consulta de información",
+        "Why": [
+            "Plataforma rápida y moderna",
+            "Herramientas integradas de manejo",
+            "Consultas diarias actualizadas",
+            "Features en tiempo real"
+        ],
+        "Why2": [
+            "Actualizaciones permanentes",
+            "Pagina ordenada e intuitiva",
+            "Posibilidad de upgrade",
+            "Membresías con beneficios"
+        ]
+    },
+    "Services": [{
+            "icon": "fa fa-desktop",
+            "name": "Carga y gestión de empresas",
+            "text": "Carga de manera manual de empresas a administrar por el usuario. Se vinculan datos de ubicación y hectáreas totales"
+        },
+        {
+            "icon": "fa fa-map-marker",
+            "name": "Gestión de Lotes",
+            "text": "Carga de lotes dentro de una empresa con superficie y ubicación exacta"
+        },
+        {
+            "icon": "fa fa-line-chart",
+            "name": "Indices en tiempo real",
+            "text": "Detalle por lote de indices satelitales en tiempo real"
+        },
+        {
+            "icon": "fa fa-sun-o",
+            "name": "Clima actualizado",
+            "text": "Datos del clima y pronostico extendido para las ubicaciones de la empresa y cada uno de sus lotes"
+        },
+        {
+            "icon": "fa fa-newspaper-o",
+            "name": "Mercados y noticias",
+            "text": "Posibilidad de consultar noticias actualizadas relacionadas al agro. Además del acceso diario a la cotización del dolar y precio de commodities"
+        },
+        {
+            "icon": "fa fa-tasks",
+            "name": "Gestión comercial",
+            "text": "Carga de información relevante respecto a Transporte,stocks e insumos. Proyección mensual"
+        }
+
+
+    ],
+    "Testimonials": [{
+            "img": "img/testimonials/01.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/02.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        },
+        {
+            "img": "img/testimonials/03.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/04.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        },
+        {
+            "img": "img/testimonials/05.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/06.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        }
+    ],
+    "Team": [{
+            "img": "https://res.cloudinary.com/dbduj98i3/image/upload/v1625159525/removal.ai__tmp-60ddf6fc69985_kjsqnu.png",
+            "name": "Dario Rodriguez",
+            "job": "Api expert"
+        },
+        {
+            "img": "https://res.cloudinary.com/dbduj98i3/image/upload/v1625159118/removal.ai__tmp-60ddf4c6b1ae9_msc5fm.png",
+            "name": "Felipe Escalante",
+            "job": "Scrum Master"
+        }, {
+            "img": "https://res.cloudinary.com/dbduj98i3/image/upload/v1625158705/IMG_6563_kt3dcj.jpg",
+            "name": "Selene Bruno",
+            "job": "Bug finder"
+        },
+        {
+            "img": "https://cdn2.hubspot.net/hubfs/136661/ClaraAlvarez.jpg",
+            "name": "Gabriel Peiteado",
+            "job": "CSS leader"
+        },
+        {
+            "img": "https://res.cloudinary.com/dbduj98i3/image/upload/v1625159117/removal.ai__tmp-60ddf4d772680_rftfls.png",
+            "name": "Mauricio Di Pietro",
+            "job": "SQL expert"
+        },
+        {
+            "img": "https://res.cloudinary.com/dbduj98i3/image/upload/v1625159183/removal.ai__tmp-60ddf4ee134d0_cjjkm1.png",
+            "name": "Leonardo Caraque",
+            "job": "Back end guru"
+        },
+        {
+            "img": "https://res.cloudinary.com/dbduj98i3/image/upload/v1625160069/removal.ai__tmp-60ddf71a05882_tunv42.png",
+            "name": "Martin Lolbell",
+            "job": "Animation specialist"
+        },
+        {
+            "img": "https://res.cloudinary.com/dbduj98i3/image/upload/v1625159969/Removal-299_aevc0j.png",
+            "name": "Juliana Gonzalez",
+            "job": "Deployment and auth"
+        },
+        {
+            "img": "https://res.cloudinary.com/dbduj98i3/image/upload/v1625159497/removal.ai__tmp-60ddf70c72fd5_ogm7ao.png",
+            "name": "Gonzalo Arancibia",
+            "job": "Front end"
+        }
+    ],
+    "Contact": {
+        "address": "Corrientes 367, Rafaela,Santa Fe, Argentina",
+        "phone": "+54 3492672847",
+        "email": "yoagronomo@gmail.com",
+        "github": "github.com",
+        "instagram": "instagram.com/soyhenry",
+        "twitter": "twitter.com"
+    }
+    
+}
